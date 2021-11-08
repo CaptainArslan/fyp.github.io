@@ -1,0 +1,477 @@
+/* Header*//*     360px View
+*************************************/
+@media screen and (max-width: 360px) {
+    .contact {
+      width: 360px;
+    }
+    .c1 {
+      margin-left: -23px;
+    }
+    .contact .c2 {
+      display: none;
+    }
+      .mynav a:not(:first-child){
+          display: none;
+      }
+      .mynav {
+        font-size: 14px;
+        padding: 0;
+        width: 360px;
+      }
+    .mynav a.icon {
+      position: relative;
+      background-color: lightgray;
+      color: black;
+      float: right;
+      top: -70px;
+      right: 0px;
+      padding: 35px 15px 33px 15px;
+      display: flex; 
+    }
+    .wish {
+        display: none;
+    }
+    .mynav .logodiv {
+       position: relative;
+       left: -80px;
+    }
+    .logo {
+        position: absolute;
+        width: 180px;
+        height: 60px;
+    }
+    .mynav .logo h6 {
+        position: relative;
+        margin-left: -22px;
+    }
+    .mynav a.b2 {
+        display: none;
+    }
+}   
+@media screen and (max-width: 360px) {
+    .mynav.responsive {
+      position: relative;
+      height: 330px;
+    }
+    .mynav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: -70px;
+      color: #bb773d;
+    }
+    .mynav.responsive .navdiv a.Active,.mynav.responsive .navdiv a.b1 {
+      position: relative;
+      left: -70px;
+      top: 40px;
+      float: none;
+      width: 70px;
+      padding: 10px;
+      display: block;
+      cursor: pointer;
+      border: none;
+      color: white;
+      z-index: 1;
+    }
+    .mynav.responsive .navdiv a.Active:hover,.mynav.responsive .navdiv a.b1:hover{
+        color: #bb773d;
+      }
+      .mynav.responsive a.b2{
+        position: relative;
+        top: -110px;
+        left: 22px;
+        float: none;
+        width: 90px;
+        padding: 10px;
+        display: block;
+        cursor: pointer; 
+        border: none;
+        color: white;
+      }
+      .mynav.responsive a.b2:hover{
+        color: #bb773d;
+      }
+      .mynav.responsive a.b2 span{
+        position: relative;
+        left: 10px;
+      }
+      .mynav.responsive .wish {
+        display: block;
+        flex-direction: column;
+        position: relative;
+        left: -70px;
+        top: -80px;
+        height: 120px;
+      }
+      .mynav.responsive .wish a{
+        display: block;
+        position: relative;
+        margin-left: 15px;
+        width: 100px;
+        height: 32px;
+      }
+      .mynav.responsive .wish a.b3 {
+        position: relative;
+        top: 14px;
+      }
+      .mynav.responsive .wish a.b3 i{
+        position: relative;
+        left: -53px;
+      }
+      .mynav.responsive .wish a.b3 span {
+        position: relative;
+        left: -53px;
+      }
+      .mynav.responsive .wish a.b4 {
+        position: relative;
+        top: 20px;
+      }
+      .mynav.responsive .wish a.b4 i{
+        position: relative;
+        left: -40px;
+
+      }
+      .mynav.responsive .wish a.b4 span {
+        position: relative;
+        left: 10px;
+        top: -20px;
+      }
+      .mynav.responsive .wish a.SearchBtn {
+        position: relative;
+        margin-top: 22px;
+      }
+      .mynav.responsive .wish a.SearchBtn i{
+        position:relative;
+        left: -30px;
+      }
+      .mynav.responsive .wish a.SearchBtn span {
+        position:relative;
+        left: -32px;
+      }
+      
+      .mynav.responsive .wish .Popup {
+        position: relative;
+        display: none;
+        margin-top: -30px;
+        margin-left: -150px;
+    }               
+    .mynav.responsive .wish .Popup-content {
+        position: relative;
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+    }                      
+    .mynav.responsive .wish .Popup .closebtn {
+        position: relative;
+        margin-left: 290px;
+        top: 8px;
+        font-size: 20px;
+        cursor: pointer;
+        color: #bb773d;
+    }                      
+    .mynav.responsive .wish .Popup .closebtn:hover {
+        color: #ccc;
+    }                      
+    .mynav.responsive .wish .Popup input {    
+        padding: 5px;
+        border: none;               
+        font-size: 17px;
+        width: 70%;
+        background: lightgray;
+        border-radius: 0;
+        overflow: none;
+    }                     
+    .mynav.responsive .wish .Popup input:hover {
+        background: lightgray;
+    }                     
+    .mynav.responsive .wish .Popup button {
+        position: relative;
+        width: 15%;
+        height: 40px;
+        padding: 10px;
+        background: #bb773d;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }           
+    .mynav.responsive  .wish .Popup button:hover {
+        background: #a56632;
+    }
+    button:focus {
+        outline: none;
+    }
+    .S3 {
+      position: relative;
+      top: -200px;
+      margin-left: 12%;
+      width: 270px;
+      height: 50px;
+      background-color: #bb773d;
+      font-size: 17px;
+      cursor: pointer;
+      color: black;
+      font-family: sans-serif;
+      text-align: center;
+  }
+  .S31 {
+      position: relative;
+      top: 15px;
+      color: black;
+      text-decoration: none;
+  }
+  .S31:hover {
+      color: black;
+  }
+    .bg_slider {
+      width: 360px;
+      height: 500px;
+    }
+     /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+     .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    /* Style the icon bar links */
+    .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 7px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 17px;
+    }
+
+    /* Style the social media icons with color, if you want */
+    .icon-bar a:hover {
+        background-color: #000;
+    }
+    .facebook {
+        background: #3B5998;
+        color: white;
+    }
+    .twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    .google {
+        background: #dd4b39;
+        color: white;
+    }
+    .linkedin {
+        background: #007bb5;
+        color: white;
+    }
+    .youtube {
+        background: #bb0000;
+        color: white;
+    }
+      /*      Page1   Start*/
+      .Page1 {
+        position: relative;
+        height: 800px;  
+    }
+    .Page111 {
+        position: relative;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: -30px;
+        margin-left: 10px;
+    }
+    .Page112 {
+        position: relative;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 35px;
+        margin-right: 15px;
+    }
+    .container {
+      position: relative;
+      left: -15px;
+      margin-top: 70px;
+      width: 360px;
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+  }
+  .container img {
+      cursor: pointer;
+      width:80px;
+      height:100px;
+      transition: 1s;
+  }
+  .container img:hover {
+      transform:translateY(-10px)
+  }
+                        /*     Page1    End */
+                        /*     Page2    Start */
+                        .Page21 {
+                          position: inherit;
+                          width: 360px;
+                          height: 350px;
+                          background-color: #bb7942;
+                          margin-top: -300px;
+                          font-family: sans-serif;
+                          color: white;
+                      }
+                      .Page211 {
+                        position: relative;
+                          margin-left: 40px; 
+                      }
+                      .Page2111 {
+                        position: relative;
+                        border-bottom: 1.5px solid white;
+                        border-right: 0;
+                        margin-left: 20px;
+                        margin-top: 0;
+                        width: 230px;
+                        height: 85px;
+                      }
+                      #Pi1 {
+                        position: relative;
+                        margin-top: 8px;
+                        margin-left: -15px;
+                        display: flex;
+                        flex-direction: row;
+
+                      }
+                      .Page2111 .Pi2 {
+                        position: relative;
+                        left: 60px;
+                        top: -40px;
+                        font-size: 20px;
+                        font-weight: 300;
+                    }
+                    .Page2111 .Pi3{
+                        position: relative;
+                        left: 60px;
+                        top: -50px;
+                        font-size: 14px;
+                    } 
+                      .ptrdown {
+                          position: relative;
+                          width: 0;
+                          height: 0;
+                          left: 44%;
+                          border-left: 30px solid transparent;
+                          border-right: 30px solid transparent;
+                          border-top: 30px solid #bb7942;
+                      }
+                                                  /*      Page2       End     */
+      
+                                  /*          Page3       Start   */
+                                  .Page3 {
+                                    position: inherit;
+                                    width: 360px;
+                                    height: 2000px;
+                                }
+                                                            /*      Page3   Part1 */
+                                .Page31 {
+                                    position: inherit;
+                                    width: 360px;
+                                    height: 1400px;
+                                    background: #f4f5f3;
+                                    margin-top: 60px;
+                                    margin-left: 0;
+                                }
+                                .Featured li {
+                                    position: relative;
+                                    list-style: none;
+                                    font-size: 13px;
+                                    top: 60px;
+                                    
+                                }
+                                .Featured a {
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                                .Featured a:hover {
+                                    color: #bb7942;
+                                }
+                                .Viewall {
+                                    position: relative;
+                                    margin-top: 34.05%;
+                                    margin-left: 50px;
+                                    font-style: italic;
+                                    font-size: 14.5px;
+                                    color: rgb(150, 149, 149);
+                                   
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                }
+                                .Viewall:hover {
+                                    cursor: pointer;
+                                    color: #bb7942;
+                                }
+                                   /*          Row 1       */
+                .Featured1 {
+                  margin-top: -395px;
+                  margin-left: 160px;
+                  width: 80%;
+                  display: flex;
+                  flex-direction: column;
+              }
+              .box {
+                  position: relative;
+                  background: #f4f5f3;
+                  width: 199px;
+                  height: 370px;
+                  border-bottom: 0.6px solid rgb(192, 192, 192);
+                  border-left: 0.6px solid rgb(192, 192, 192);
+              }
+              .box1 {
+                  position: relative; 
+                  cursor: pointer; 
+                  width:170px; 
+                  height:170px; 
+                  margin-left: 13px; 
+                  margin-top: 15px;
+                  transition: 1s;
+              }
+              .box1:hover {
+                  cursor: pointer;
+                  transform:translateY(-10px)
+              }
+              .box2 {
+                  position: relative;
+                  font-size: 14px;
+                  font-weight: 200; 
+                  margin-left: 25px; 
+                  margin-top: 1px;
+                  line-height: 20px; 
+                  width: 200px; 
+                  color: #0069df;   
+              }
+              .box2:hover {
+                  color: #bb7942;
+                  cursor: pointer;
+              }
+              .box3 {
+                  font-size: 17px; 
+                  font-weight: 200; 
+                  margin-left: 25px; 
+                  margin-top: -3px; 
+                  line-height: 10px; 
+              }
+              .box4 {
+                  position: relative;
+                  width: 130px;
+                  height: 50px;
+                  background:  #cd772f;
+                  margin-left: 25px;
+                  top: 5px;
+                  font-size: 14px;
+                  font-weight: bolder;
+                  font-family: Verdana, Geneva, Tahoma, sans-serif;
+              }
+              .box4:hover {
+                  background-color: #f07f23;
+                  color: black;
+                  cursor: pointer;
+              }
+  }

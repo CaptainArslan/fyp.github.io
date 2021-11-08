@@ -1,0 +1,135 @@
+.Home-path {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(216, 215, 215);
+}
+.Home-path p {
+    position: absolute;
+    margin: 1.5% 0 0 13%;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 100;
+    transition: 0.7s ease-in;
+}
+.Home-path a {
+    text-decoration: none;
+    color: #1a55e0;
+}
+.Home-path a:hover {
+    color: #bb773d;
+}
+        /*Page1      Start*/
+        .Page1 {
+            position: relative;
+            width: 100%;
+            margin-top: 180px;
+        }
+        .Page1 .Checkcart {
+            position: relative;
+            top: 100px;
+            margin-left: 11.3%;
+            width: 75%;
+            overflow: auto;
+            background-color: rgb(230, 227, 227);   
+            border-top: 3px solid #1e85be;
+        }
+        .Checkcart h3 {
+            padding: 7px 0 0 15px;
+            font-size: 14px;
+            color: rgb(73, 73, 73);
+        }
+        .Page1 .home {
+            position: relative;
+            padding: 17px 25px 17px 25px;
+            background-color: #bb773d;
+            top: 170px;
+            left: 173px;
+            cursor: pointer;
+            color: black;
+        }
+        .Page1 a {
+            text-decoration: none;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .Forheight tr.r1{
+            height: 50px;
+            overflow: auto;
+        }
+        .Forheight tr.r2{
+            background-color: white;
+            height: auto;
+            overflow: auto;
+        }
+        .Forheight tr.r3{
+            background-color: white;
+            height: auto;
+            overflow: scroll;
+        }
+        .table td {
+            position: relative;
+            border-bottom: #F0F0F0 1px solid;
+            width: 200px;
+            font-family: sans-serif;
+            font-weight: 200;
+            }
+        .table tr td {
+            position: relative;
+            border-bottom: #F0F0F0 1px solid;
+            width: 200px;
+            /* top: 36px; */
+            text-align: center;
+            border-right: #F0F0F0 1px solid;
+            }
+            .table td img{
+                border-radius: 50%;
+                border-color: 1px black solid;
+                border-bottom-style: inset;
+                border-top-style: outset;
+                border-left-style: outset;
+                border-right-style: inset;
+                padding: 5px;
+                margin-top: 12px;
+                /* margin-left: -20px; */
+                display: flex;
+                flex-direction: row;
+            }
+            .size{
+                padding: 7px 66px 7px 10px;
+                text-align: left;
+            }
+            .size:focus,.prdQuantity:focus{
+                outline: none;
+            }
+            .prdQuantity{
+                padding: 7px 70px 7px 10px;
+            }
+            
+        .remove {
+            background-color:  #f44336; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 62px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .remove:focus{
+            outline: none;
+        }
+        span .checkoutbtn{
+            position: absolute;
+            float: right;
+            position: relative;
+            padding: 17px 25px 17px 25px;
+            background-color: #bb773d;
+            top: 150px;
+            left: -210px;
+            cursor: pointer;
+            border: hidden;
+        }

@@ -1,0 +1,351 @@
+@charset "UTF-8";
+/*Css Document*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', Arial, sans-serif;
+    /* line-height: normal;
+    font-size: initial; */
+}
+html {
+    scroll-behavior: smooth;
+}
+                            /*Start Header*/
+/*Header1 Start*/
+                .contact {
+                    background: #bb773d;
+                    width: 100%;
+                    height:45px;
+                }
+                .c1 {
+                    position: absolute;
+                    font-size: 15px;
+                    top: 14px;
+                    left: 40px;
+                    color: black;
+                    text-decoration: none;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    padding: 0;
+                    margin: 0;
+                }
+                .c2 {
+                    position: relative;
+                    padding: 0;
+                    margin-top: 0;
+                    font-size: 12px;
+                    width: 415px;
+                    top: 15px;
+                    margin-left: 71.3%;
+                }
+                .c2 a {
+                    position: relative;
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    top: -10px;
+                    margin-right: 10px;
+
+                }
+                .c2 a:hover {
+                   color:  #234085;
+                }
+/*Header2 Start*/
+.mynav {
+    width: 100%;
+    height: 90px;
+    background-color: #24304d;
+    z-index: 2;
+    position: sticky;
+    top:0;
+}
+@keyframes moveDown {
+    0% {
+      transform:translateY(-150px);
+    }
+    100% {
+      transform:translateY(0);
+    }
+  }
+/* a.logo {
+    text-decoration: none;
+    color: black;
+} */
+.mynav .logo{
+    position: relative!important;
+    width: 4.3%!important;
+    height: 65.5px!important;
+    border: 2.5px solid #bb773d!important;
+    top: 10.1px!important;
+    margin-left: 90px!important;
+    border-radius: 5px!important;
+}
+.mynav .logo .Brand{
+    position: relative!important;
+    width: 35px!important; 
+    height: 45px!important; 
+    left: 15.5px!important; 
+    top: 9.5px!important;
+}
+.mynav .logodiv{
+    position: absolute!important;
+    width: 18%!important;
+    height: 70px!important;
+    margin-top: -5%!important;
+    margin-left: 10.8%!important;
+}
+
+.mynav .logodiv .LogoN {
+    position: absolute!important;
+    margin-top: 6%!important;
+    width: 138px!important; 
+    color: #bb7942!important;
+    font-size: 24px!important;
+    font-weight: 700!important;
+}
+.mynav .logodiv .Details{
+    position: absolute!important; 
+    width: 77px!important; 
+    font-size: 7.5px!important; 
+    margin-left: 24%!important; 
+    margin-top: 16%!important; 
+    color: #bb7942!important;
+}
+
+.mynav .navdiv {
+    position: relative;
+    margin-left: 33%!important;
+    height: 60px!important;
+    width: 480px!important;
+    top: -35px!important;
+}
+.mynav .navdiv a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    border-bottom: 3px solid transparent;
+    padding: 34.899px 5px;
+    transition: 0.5s all ease;
+}
+.mynav .navdiv a.Active {
+    color:#bb773d;
+    border-bottom: 3px solid#bb7942;
+}
+.mynav .navdiv a:hover {
+    color: #bb773d;
+    cursor: pointer;
+    border-bottom: 3px solid #bb7942;
+}
+/* .navdiv A.b2{
+    display: none;
+} */
+.wish {
+    position: relative;
+    margin-top: -93px;
+    margin-left: 73%;
+    color: white;
+    font-family: sans-serif;
+}
+.wish a {
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.wish a:hover {
+    color: #bb773d;
+}
+.wish a span {
+    margin-left: 7px;
+}
+.wish a.Active {
+    color:#bb773d;
+}
+.cart_div{
+    font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 0px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 105px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+}
+                                /*Search        POPUP*/
+                .wish .Popup {
+                    position: relative;
+                    display: none;
+                    width: 300px;
+                    height: 90px;
+                    margin-top: -76px;
+                    left: -10px;
+                }
+                .wish .Popup-content {
+                    position: relative;
+                    overflow: hidden;
+                    width: 350px;
+                    height: 50px;
+                    top: -15px;
+                    left: 10px;
+                    border: hidden;
+                    display: flex;
+                    flex-direction: row;
+                }
+                .wish .Popup .closebtn {
+                    position: relative;
+                    left: 345px;
+                    top: 6px;
+                    font-size: 18px;
+                    font-weight: 200;
+                    cursor: pointer;
+                    color: #bb773d;
+                    width: 15px;
+                }
+                .wish .Popup .closebtn:hover {
+                    color: #ccc;
+                }
+                .wish .Popup-content input {
+                    position: relative;
+                    padding: 10px;
+                    border: hidden;
+                    width: 500px;
+                    background-color: #ececec;
+                    left: 20px;
+                }
+                .wish .Popup-content input:focus {
+                    outline: none;
+                }
+                .wish .Popup-content button {
+                    position: relative;
+                    background: #bb773d;
+                    font-size: 18px;
+                    border: none;
+                    cursor: pointer;
+                    padding: 19px 20px 22px 20px;
+                }
+                .wish .Popup-content button:hover {
+                    background: #a56632;
+                }
+                button:focus {
+                    outline: none;
+                }
+
+
+                  /* Footer   */
+footer {
+    background-color: #24304d;
+    color: white;
+    width: 100%;
+    height: 550px;
+    position: inherit;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.AU {
+    position: relative;
+    top: 97px;
+    margin-left: 150px;
+    line-height: 12px;
+}
+
+.CU {
+    position: relative;
+    margin-left: 48%;
+    top: -85px;
+}
+
+.MU {
+    position: relative;
+    margin-left: 70%;
+    top: -340px;
+    line-height: 25px;
+}
+
+    .MU a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 200;
+        text-decoration: none;
+        color: lightgray;
+    }
+
+        .MU a:hover {
+            color: #bb7942;
+        }
+
+.Pr {
+    position: relative;
+    margin-left: 84%;
+    top: -496px;
+    line-height: 25px;
+}
+
+    .Pr a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 200;
+        text-decoration: none;
+        color: lightgray;
+    }
+
+        .Pr a:hover {
+            color: #bb7942;
+        }
+
+#hr1 {
+    width: 1232px;
+    margin-left: 10%;
+    margin-top: -16%;
+    border: 0.1px solid #f07f23;
+}
+/*          Footer Start        */
+
+footer .F {
+    position: inherit;
+    color: #6f7b84;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 1.5%;
+    margin-left:10%;
+    padding: 0;
+}
+
+footer .link {
+    text-decoration: none;
+    color: #bbc1c6;
+}
+
+    footer .link:hover {
+        color: #bb7942;
+    }
+                #button {
+                    position: fixed;
+                    bottom: 0;
+                    right: 30px;
+                    background-color: #444444;
+                    color: white;
+                    cursor: pointer;
+                    display: none;
+                    z-index: 99;
+                    width: 55px;
+                    height: 40px;
+                    border: hidden;
+                    border-top-left-radius: 4px;
+                    border-top-right-radius: 4px;
+                }
+
+/*  Responsiveness   */
+.mynav a.icon {
+    display: none;
+}

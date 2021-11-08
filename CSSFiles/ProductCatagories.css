@@ -1,0 +1,403 @@
+   
+                .Home-path {
+                    position: relative;
+                    width: 100%;
+                    height: 60px;
+                    background-color: rgb(216, 215, 215);
+                }
+                .Home-path p {
+                    position: absolute;
+                    margin: 1.5% 0 0 13%;
+                    padding: 0;
+                    font-size: 14px;
+                    font-weight: 100;
+                    transition: 0.7s ease-in;
+                }
+                .Home-path a {
+                    text-decoration: none;
+                    color: #1a55e0;
+                }
+                .Home-path a:hover {
+                    color: #bb773d;
+                }
+.Page1 {
+    position: relative;
+    width: 100%;
+    top: -20px;
+    height: 1576px;
+}
+.Page1 .Page11 {
+    position: relative;
+    height: 1200px;
+    width: 250px;
+    top: 30px;
+    margin-left: 13%;
+}
+.Page1 .Page111 {
+    position: relative;
+    background-color: rgb(216, 215, 215);
+    width: 250px;
+    height: 500px;
+}
+.Featured li {
+    position: relative;
+    list-style: none;
+    font-size: 13px;
+    top: 60px;
+    margin-left: 50px;    
+}
+.Featured a {
+    text-decoration: none;
+    color: black;
+}
+.Featured a:hover {
+    color: #bb7942;
+}
+.Viewall {
+    position: relative;
+    margin-top: 90%;
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 14.5px;
+    color: rgb(150, 149, 149); 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Viewall:hover {
+    cursor: pointer;
+    color: #bb7942;
+}
+.Page112 {
+    position: relative;
+    width: 220px;
+    height: 635px;
+    margin-top: 30px;
+    padding: 10px 20.5px 10px 17.5px;
+    background-color: rgb(216, 215, 215);
+}
+.Page1121 {
+    position: relative;
+    height: 160px; 
+    border-bottom: 0.3px solid black;
+}
+.Page1121 h3 {
+    width: 100px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Page1121 input {
+    position: relative;
+    height: 30px;
+    width: 209px;
+    border: 0.01px solid rgb(150, 150, 150);
+    border-radius: 0;
+    outline: none;
+}
+.Page1121 input:hover {
+    outline: none;
+}
+.Page1121 i {
+    position: relative;
+    font-weight: 600;
+    top: -22px;
+    margin-left: 186px;
+    color: rgb(97, 97, 97);
+}
+
+.Page1121 i:focus {
+   outline: none; 
+}
+.Checkbox1 input[type=checkbox] {
+    position: relative;
+    width: 15px;
+    height: 15px; 
+    outline: none;
+    display: flex;
+    flex-direction: column;
+}
+.Checkbox1 p {
+    position: relative;
+    font-size: 14px;
+    margin-left: 25px;
+    top: -30px;
+}
+.Checkbox2 input[type=checkbox] {
+    position: relative;
+    width: 15px;
+    height: 15px; 
+    top: -30px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+}
+.Checkbox2 p {
+    position: relative;
+    font-size: 14px;
+    margin-left: 25px;
+    top: -60px;
+}
+.Rating {
+    position: relative;
+    height: 70px;
+}
+.Checkbox3 input[type=checkbox] {
+    position: relative;
+    width: 15px;
+    height: 15px; 
+    outline: none;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Stars {
+    position: relative;
+    margin-left: 25px;
+}
+.Checkbox3 i {
+    position: relative;
+    color: #ffa500;
+    font-size: 12px;
+    top: -12px;
+}
+.circles {
+    position: relative;
+}
+.circles span {
+    position: relative;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.Sizes  {
+    position: relative;
+    height: 160px;
+}
+.Checkbox4 {
+    position: relative;
+    top: 10px;
+}
+.Checkbox4 input[type=checkbox] {
+    position: relative;
+    width: 15px;
+    height: 16px; 
+    outline: none;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+}
+.Sizes p {
+    position: relative;
+    outline: none;
+    font-size: 13px;
+    margin-top: -17px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.Page12 {
+    position: relative;
+    width: 850px;
+    height: 1550px;
+    margin-left: 31.4%;
+    top: -74.25%;
+}
+.Page12 .Page121 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 856.5px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+}
+.Page121 p{
+    position: relative;
+    padding: 16px 10px 5px 10px;
+    margin: 0;
+    width: 110px;
+}
+.Page121 .container {
+ position: relative;
+ width: 250px;
+ height: 35px;
+ margin-left: 70%;
+ margin-top: -32px;
+}
+.Page121 .container ul{
+    list-style: none;
+}
+.Page121 .container ul li{   
+    padding: 9px 25px 7px 10px;
+    top: -16px;
+    z-index: 1;
+    margin-left: -40px;
+    text-align: left;
+    color: black;
+    font-size: 13px;
+    position: relative;
+    transition: 0.6s ease; 
+    border: 1px solid rgb(185, 185, 185); 
+    background-color: white;
+} 
+.Page121 .container ul li:hover{
+    cursor: pointer;
+}
+.Page121 .container ul li ul {
+    display: none;
+}
+.Page121 .container ul li:hover > ul{
+    display: block;
+}
+.Page121 .container ul li ul {
+    position: absolute;
+    padding: 9px 45px 7px 10px;
+    width: 207px;
+    left: 30.5px;
+    top: 39.2px;
+}
+.Page121 .container ul li ul li:hover {
+    cursor: pointer;
+    color: #bb7942;
+}
+                                    /*          Row 1       */
+.Featured1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 856.5px;
+    flex-wrap: wrap;
+}
+.container1:hover .FeaturePop {
+    opacity: 100%;
+    background-color: white;
+    padding: 9px;
+    color: rgb(51, 51, 51);
+}
+.box {
+    position: relative;
+    width: 212.44px;
+    left: 0.1px;
+    height: 449px;
+    border: 0.6px solid rgb(192, 192, 192);
+    border-top: 0px;
+}
+.box1 {
+    position: relative; 
+    cursor: pointer; 
+    width:190px; 
+    height:170px; 
+    margin-left: 10px; 
+    margin-top: 15px;
+    transition: 1s;
+}
+.box1:hover {
+    cursor: pointer;
+    transform:translateY(-10px)
+}
+.box2 {
+    position: relative;
+    font-size: 14px;
+    font-weight: 200; 
+    margin-left: 10px; 
+    margin-top: 10px;
+    line-height: 20px; 
+    width: 200px; 
+    color: #0069df;   
+}
+.box2:hover {
+    color: #bb7942;
+    cursor: pointer;
+}
+.box3 {
+    font-size: 17px; 
+    font-weight: 200; 
+    margin-left: 10px; 
+    margin-top: 60px; 
+    line-height: 10px;
+}
+.box4 {
+    position: relative;
+    width: 130px;
+    height: 50px;
+    background:  #f07f23;
+    left: 10px;
+    top: 5px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    border: hidden;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box4:hover {
+    background-color: #e07620;
+    color: black;
+    cursor: pointer;
+}
+.FeaturePop {
+    position: absolute; 
+    bottom: 263px;
+    width: 175px;
+    transition: 0.3s;
+    opacity:0;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    background-color: lightgray;
+}
+.FeaturePop a {
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    border-radius: 100%;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #0069df!important;
+    left: 13px;
+}
+.FeaturePop a:hover,.FeaturePop .Boxing:hover,.FeaturePop .Boxing:focus {
+    outline: none!important;
+    background-color: #bb7942!important;
+} 
+.FeaturePop .Boxing{
+    width: 100px!important;
+    justify-content: center!important;
+    border-radius: 100%!important;
+    width: auto!important;
+    left: 18px;
+    position: relative;
+    top: -0.3px!important;
+    background-color: #f4f5f3!important;
+    border: none!important;
+    color: #0069df!important;
+    padding: 8px 10px 7px 10px!important;
+}
+.Page123 {
+    margin-left: 170px;
+    margin-top: 50px;   
+}
+.Page123 .active {
+    background-color: #ac9d8f;
+}
+.Page123 .active:hover {
+    background-color: #ac9d8f;
+}
+.Page123  a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    background-color: #bb773d;
+    padding: 8px 13px 8px 13px;
+    margin-left: 7px;
+}
+.Page123 a:hover {
+    background-color: #bb773d;
+}
+
+                       

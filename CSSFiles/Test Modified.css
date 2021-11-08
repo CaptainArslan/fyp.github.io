@@ -1,0 +1,271 @@
+@charset "UTF-8";
+/*Css Document*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', Arial, sans-serif;
+    background: white;
+}   
+                            /*Start Header*/                          
+/*Header1 Start*/
+                .contact {
+                    background: #bb773d;
+                    width: 100%;
+                    height:45px;               
+                }
+                .c1 {
+                    position: absolute;
+                    font-size: 15px;
+                    top: 14px;
+                    left: 40px;
+                    color: black;
+                    text-decoration: none;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    padding: 0;
+                    margin: 0;
+                }
+                .c2 {
+                    position: relative;
+                    padding: 0;
+                    margin-top: 0;
+                    font-size: 12px;                
+                    width: 350px;
+                    top: 15px;
+                    margin-left: 75%;
+                }
+                .c2 a {
+                    position: relative;
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;  
+                    top: -10px;
+                    margin-left: 10px;
+                    
+                }
+                .c2 a:hover {
+                   color:  #234085;
+                }
+
+
+                body {margin:0;font-family:Arial}
+                .menu {
+                    position: relative;
+                    width: 100%;
+                    height: 90px;
+                    background-color: #24304d;                   
+                }
+                #logo {     
+                    position: relative;
+                    width: 62px;
+                    height: 65px;
+                    border: 2.5px solid #bb773d;
+               
+                    border-radius: 5px;
+                }
+.mynav {
+  overflow: hidden;
+  background-color: #333;
+}
+.mynav li {
+    list-style: none;
+}
+.mynav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.mynav .icon {
+  display: none;
+}
+.mynav a.box3{
+  display: none;
+}
+/*Header2 Start*/
+                .menu {
+                    position: relative;
+                    width: 100%;
+                    height: 90px;
+                    background-color: #24304d;                   
+                }
+                .mynav a {
+                    position: relative;
+                    color: white;
+                    float: left;
+                    text-decoration: none;
+                    margin-left: 50px;
+                    font-size: 15px;
+                    top: -65px;
+                    cursor: pointer;
+                    border-bottom: 3px solid transparent;
+                    padding: 34.8px 5px;
+                }
+                .mynav a.Active {
+                    color:#bb773d; 
+                    border-bottom: 3px solid#bb7942; 
+                }
+                .mynav a:hover {
+                    color: #bb773d;      
+                    cursor: pointer; 
+                    border-bottom: 3px solid #bb7942;           
+                }
+                .wish {
+                    position: absolute;
+                    margin-top: -32px;
+                    margin-left: 73%;
+                }
+                .wish a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: white;
+                    font-weight: 500;
+                }
+                .wish a:hover {
+                    color: #bb773d;
+                }  
+                                /*Search        POPUP*/
+                * {
+                    box-sizing: border-box;
+                }
+                .SearchBtn {
+                    border: none;
+                    margin-left: 6px;
+                    font-size: 17px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    font-weight: 500;
+                }
+                .Popup {
+                    display: none;
+                    margin-top: -32px;
+                    margin-left: -60px;
+                }               
+                .Popup-content {
+                    position: relative;
+                    width: 470px;
+                    display: flex;
+                    flex-direction: row;
+                }                      
+                .Popup .closebtn {
+                    position: absolute;
+                    left: 330px;
+                    top: -31px;
+                    font-size: 20px;
+                    cursor: pointer;
+                    color: #bb773d;
+                }                      
+                .Popup .closebtn:hover {
+                    color: #ccc;
+                }                      
+                .Popup input {    
+                    padding: 20px;
+                    border: none;               
+                    font-size: 17px;
+                    width: 70%;
+                    background: lightgray;
+                    border-radius: 0;
+                    overflow: none;
+                }                     
+                .Popup input:hover {
+                    background: lightgray;
+                }                     
+                .Popup button {
+                    position: relative;
+                    width: 15%;
+                    height: 40px;
+                    background: #bb773d;
+                    font-size: 17px;
+                    border: none;
+                    cursor: pointer;
+                }           
+                .Popup button:hover {
+                    background: #a56632;
+                }
+                button:focus {
+                    outline: none;
+                }
+/*Header2 End*/
+
+/*Responsivness*/
+@media screen and (max-width: 850px) {
+    .mynav a:not(:first-child){
+        display: none;
+    }
+  .mynav a.icon {
+    background-color: lightgray;
+    color: black;
+    float: right;
+    top: 0;
+    right: 0;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .mynav.responsive {position: relative;}
+  .mynav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #bb773d;
+  }
+  .mynav.responsive a.box {
+    margin-top: 100px;
+    width: 35px;
+    float: none;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+  }
+  .mynav.responsive a:hover{
+    color: #bb773d;
+  }
+  .mynav.responsive a.box1 {
+    margin-top: 5px;
+    float: none;
+    width: 35px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+  }
+  .mynav.responsive a.box2 {
+    margin-top: 5px;
+    float: none;
+    width: 70px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+  }
+  .mynav.responsive a.box3 {
+    position: relative;
+    top: -210px;
+    margin-left: 75%;
+    float: none;
+    width: 100px;
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    flex-direction: row;
+  }
+  .mynav.responsive a span {
+    position: relative;
+    left: 10px;
+  }
+  .mynav.responsive {float: none;}
+  .mynav.responsive {position: relative;}
+  .mynav.responsive {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}

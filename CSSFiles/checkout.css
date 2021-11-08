@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+    font-family: sans-serif;
+}
+.main{
+    background-color: rgb(231, 227, 219);
+    width: 875px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+.head{
+    font-family: sans-serif;
+    background-color: #bb7942;
+    width: 854px;
+    height: 40px;
+    padding: 10px;
+    color: black;
+    position: relative;
+}
+.boxe {
+    padding: 20px;
+}
+.fname {
+    width: 350px;
+    height: 25px;
+}
+.email {
+    width: 350px;
+    height: 25px;
+}
+.address {
+    width: 350px;
+    height: 25px;
+}
+.city {
+    width: 350px;
+    height: 25px;
+}
+.state {
+    width: 150px;
+    height: 25px;
+}
+.zip {
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -48px;
+}
+.lblzip {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.rightside {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -495px;
+    width: 40%;
+}
+.rightside h3 {
+    position: relative;
+    margin-left: -20px;
+}
+.rightside .boxes {
+    position: relative;
+    margin-top: -50px;
+    margin-left: -20px;
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    overflow: auto;
+    height: auto;
+    max-height: 410px;
+}
+.rightside .boxes .lblemail{
+    position: sticky;
+    top: 0;
+    width: auto;
+    padding: 14px 0px 14px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: white;
+    z-index: 1;
+}
+.rightside .boxes img{
+    border-bottom-style: inset;
+    border-top-style: outset;
+    border-left-style: outset;
+    border-right-style: inset;
+    border-radius: 50%;
+    padding: 5px;
+}
+.rightside .boxes1{
+    height: 100px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.rightside .boxes1 .price {
+    position: relative;
+    top: 36px;
+}
+.r3 {
+    position: sticky;
+    bottom: 0;
+    font-weight: 200;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: white;
+    color: #04274e;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 10px 5px;
+}
+.btnwsub {
+    position: relative; 
+    margin-top: 50px;
+    border: hidden;
+    height: auto;
+}
+.okyy {
+    margin: auto;
+    width: 875px;
+    height: 40px;
+    background-color: #04274e;
+    color: white;
+    border: hidden;
+    cursor: pointer;
+}

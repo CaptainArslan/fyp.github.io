@@ -1,0 +1,106 @@
+/*Sign Up Page*/
+.signup {
+    width: 29.8%;
+    height: 450px;
+    margin-left: 33%;
+    margin-top: 3%;
+    background-color: lightgray;
+    padding: 25px 12px 15px 21px;
+    border-radius: 20px;
+}
+.signup h1{
+    font-weight: 300;
+}
+input:focus {
+    outline: none;
+}
+.signup .Name {
+    width: 206px;
+    height: 38px;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+    padding: 0px 4px;
+}
+.signup input[type=Email] {
+    position: relative;
+    height: 38px;
+    width: 338px;
+    padding: 0px 100px 0px 4px;
+    top: 32px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.signup text{
+    position: relative;
+    color: rgb(131, 131, 131);
+    background:white;
+    height: 25.5px;
+    width: 95px;
+    padding: 9px 0px 3.3px 0px;
+    margin-left: 360px;
+    top: 3px;
+    left: -12.5px;
+}
+.signup .pass {
+    width: 206px;
+    height: 38px;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    top:37px;
+    margin-right: 10px;
+    padding: 0px 4px;
+}
+.signup .Checkbox {
+    position: relative;
+    width: 15px;
+    height: 25px;
+    top: 70px;
+}
+.signup span {
+    position: relative;
+    font-size: 14px;
+    top: 63px;
+    left: -3px;
+}
+.signup a {
+    position: absolute;
+    text-decoration: none;
+    color: #0a73f8;
+    margin-top: 180px;
+    margin-left: -120px;
+    text-align: left;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.signup input[type=submit] {
+    position: relative;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    border: hidden;
+    top: 150px;
+    margin-left: 332px;
+    color: lightgray;
+    background-color: #0a73f8;
+    cursor: pointer;
+}
+.signup input[type=submit]:hover {
+    background-color: #0b60cf;
+}
+
+
+.Status1 {
+    position: absolute;
+    text-align: center;
+    color: red;
+    height: 6px;
+    margin-top: 40px;
+} 
+.Status2 {
+    text-align: center;
+    color: red;
+}        
